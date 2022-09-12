@@ -9,19 +9,29 @@
 public class FizzBuzz {
 
 	public static void main(String[] args) {
+		//条件値セット[ a b ]
 		int a =3;
 		int b =5;
+		
 		for(int count = 1; count < 101; count++) {
+			
 			if(count % a == 0 ) {
+				
 				if(count % b == 0 ) {
 				System.out.println("FizzBuzz");
+				
 				}
 				else System.out.println("Fizz");
+			
 			}
 			else if(count % b == 0 ) {
 				System.out.println("Buzz");
-				}
+			
+			}
 			else System.out.println(count);
+			
 		}
+		
 	}
+	
 }
